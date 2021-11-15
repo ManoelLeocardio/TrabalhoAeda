@@ -1,0 +1,18 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 39, 39);
+    background-position: center;
+    background-blend-mode: color;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+fieldset{
+
+    border-radius: 25px;
+    width: 16%;
+    margin: 0px auto;
+    
+}
+
