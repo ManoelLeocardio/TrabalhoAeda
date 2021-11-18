@@ -1,0 +1,50 @@
+.noticias{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+.artigo_caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(265px ,  1fr));
+    gap: 2rem;
+}
+.imagens{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.imagens img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.artigo_noticia{
+    background: #efeff1;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.artigo_noticia:hover{
+    box-shadow: 0px 4px 20px 10px #c400c4;
+    cursor: pointer;
+}
+.conteudo{
+    padding: 32px;
+}
+.conteudo .categoria{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-weight: 600;
+    color: #232323;
+    display: block;
+    text-decoration: none;
+}
+.conteudo .titulo{
+    margin: 1rem 0;
+    color:#232323;
+}
+.conteudo .texto{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #232323;
+    margin: 0;
+}
